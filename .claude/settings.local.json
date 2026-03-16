@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Read(//usr/local/bin/**)",
+      "Bash(echo \"PATH: $PATH\")",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/curiousmash/**)",
+      "Read(//opt/homebrew/**)",
+      "Bash(/opt/pmk/env/global/bin/node --version)",
+      "Bash(/opt/pmk/env/global/bin/npm --version)",
+      "Bash(env)",
+      "Bash(curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh)",
+      "Bash(bash)",
+      "Bash(export NVM_DIR=\"$HOME/.nvm\")",
+      "Bash(source \"$NVM_DIR/nvm.sh\")",
+      "Bash(nvm --version)",
+      "Bash(nvm install 20)",
+      "Bash(source /Users/curiousmash/.nvm/nvm.sh)",
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(npx prisma generate)",
+      "Bash(npx prisma db push)",
+      "Bash(DATABASE_URL=\"file:./dev.db\" npx prisma db push)",
+      "Bash(DATABASE_URL=\"file:./dev.db\" npx tsc --noEmit)",
+      "Bash(npm install --save-dev @types/nodemailer)",
+      "Bash(DATABASE_URL=\"file:./dev.db\" NEXTAUTH_SECRET=\"test\" GOOGLE_CLIENT_ID=\"test\" GOOGLE_CLIENT_SECRET=\"test\" NEXTAUTH_URL=\"http://localhost:3000\" npm run build)",
+      "Bash(mkdir -p \"/Users/curiousmash/.claude/projects/-Users-curiousmash-Desktop-Claude-Projects-Calenderize/memory\")",
+      "Bash(\"/Users/curiousmash/.claude/projects/-Users-curiousmash-Desktop-Claude-Projects-Calenderize/memory/MEMORY.md\":*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(git config --global user.name)",
+      "Bash(git config --global user.email)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(ssh-keygen -t ed25519 -C \"mashhood-alam@github\" -f ~/.ssh/id_ed25519_github -N \"\")",
+      "Bash(chmod 600 ~/.ssh/config ~/.ssh/id_ed25519_github)"
+    ]
+  }
+}
